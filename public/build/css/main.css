@@ -122,9 +122,8 @@ body {
 }
 .about-section .bg-shape {
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
-    bottom: 0;
     width: 15%;
     opacity: .1;
     z-index: -1;
