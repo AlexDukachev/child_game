@@ -73,11 +73,11 @@
         var parallax = new Parallax(scene);
         $('.q-element').on({
             'mouseover': function() {
-                var color = $(this).data('hover')
-                $(this).css('background-color', color)
+                var color = $('.q-box', this).data('hover')
+                $('.q-box', this).css('background-color', color)
             },
             'mouseout': function() {
-                $(this).css('background-color', '#FFFFFF')
+                $('.q-box', this).css('background-color', '#FFFFFF')
             }
         })
     </script>
