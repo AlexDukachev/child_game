@@ -198,8 +198,8 @@ img {
 .question_single_image {
     position: absolute;
     z-index: 5;
-    top: 50%;
-    left: 50%;
+    width: 463px;
+    height: 463px;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -257,14 +257,6 @@ img {
     left: 0;
     right: 0;
     margin: auto;
-}
-.answer {
-    position: absolute;
-    z-index: 5;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
 }
 .q-element {
     width: calc(50% - 85px);
