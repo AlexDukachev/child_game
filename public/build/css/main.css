@@ -260,14 +260,18 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 22px;
-    display: flex;
+    display: grid;
     align-content: center;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
 .question_single_image_wrapper span img {
-    
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 .q-element {
     width: calc(50% - 85px);

@@ -28,7 +28,7 @@
                         <div class="question_single_image_wrapper">
                             <span>
                                 <img src="https://i.pinimg.com/originals/a6/bd/95/a6bd9504c3c282a19c108276797b5e03.jpg" alt="">
-                                Какое животное изображено на фото?
+                                Какое животное изображено на фото? Какое животное изображено на фото? Какое животное изображено на фото?
                             </span>
                         </div>
                     </figure>
