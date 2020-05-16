@@ -7,3 +7,10 @@
     background: #ffff;
     box-shadow: -9px -10px 23px #9a9a9a;
 }
+.navbar-light .logo a.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+.navbar-light .logo a.navbar-brand img {
+    width: 110px;
+}
