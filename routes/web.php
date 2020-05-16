@@ -12,4 +12,6 @@
 */
 
 Route::view('/', 'welcome');
-Route::view('/question', 'question');
+Route::get('/question', function() {
+    return view('question');
+});
