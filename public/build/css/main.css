@@ -248,6 +248,8 @@ img {
     box-shadow: 8px 6px 20px 0 rgba(0,0,0,.1);
 }
 .question_single_image_wrapper span {
+    max-width: calc(100% - 24px);
+    max-height: calc(100% - 24px);
     position: absolute;
     z-index: 2;
     top: 0;
