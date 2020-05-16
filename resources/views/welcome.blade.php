@@ -15,7 +15,9 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <div class="logo">
-                        <a class="navbar-brand" href="{{ url('/') }}">Child Game</a>
+                        <a class="navbar-brand" href="{{ url('/') }}">
+                            <img src="https://templates.envytheme.com/humpty/default/assets/img/child-logo.png" alt="">
+                        </a>
                     </div>
                 </nav>
             </div>
