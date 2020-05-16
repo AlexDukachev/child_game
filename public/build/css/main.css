@@ -116,6 +116,38 @@ body {
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
+.single-about-bg {
+    text-align: center;
+}
+.single-about-bg::before {
+    content: "";
+    position: absolute;
+    background-image: url('../img/shape/bg-shapes-1.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: .2;
+    -webkit-animation: mover 800ms infinite alternate;
+    animation: mover 800ms infinite alternate;
+}
+.single-about-bg .about-img-cartwrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.single-about-bg .image {
+    position: relative;
+}
+.single-about-bg .image img {
+    text-align: center;
+    opacity: 1;
+    position: relative;
+}
 @media only screen and (min-width: 1824px) {
     .about-section .shape1 {
         position: absolute;

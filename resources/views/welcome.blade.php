@@ -69,15 +69,7 @@
                     <div class="single-about-bg item-bg">
                         <div class="about-img-cartwrap">
                             <div class="image">
-                                <img src="https://templates.envytheme.com/humpty/default/assets/img/about/about-bg.png" alt="">
-                                <div class="benefits-cart">
-                                    <div class="d-table">
-                                        <div class="d-tablecell">
-                                            <h4>our</h4>
-                                            <p>benefits</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <img src="{{ asset('build/img/about-bg.png') }}" alt="">
                             </div>
                         </div>
                     </div>
