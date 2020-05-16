@@ -12,7 +12,22 @@
 </head>
 <body>
     
-    
+    <section class="section-block-wrapper">
+        <div class="parallax_bg hidden-sm hidden-xs">
+            <ul id="scene" class="scene" data-scalar-x="10" data-scalar-y="4">
+                <li class="layer" data-depth="0.00"><img id="sun" src="{{ asset('build/img/sun.png') }}" alt=""></li>
+                <li class="layer" data-depth="0.20"><img id="globe" src="{{ asset('build/img/globe.png') }}" alt=""></li>
+                <li class="layer" data-depth="0.30"><img id="cloud" src="{{ asset('build/img/clouds.png') }}" alt=""></li>
+            </ul>
+        </div>
+        <div id="overlay_slider_land" class="overlay_slider_land"></div>
+    </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="{{ asset('build/js/parallax.min.js') }}"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
 </body>
 </html>
