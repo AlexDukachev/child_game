@@ -271,6 +271,9 @@ img {
     position: relative;
     z-index: 0;
 }
+.q-box:hover {
+    color: #ffffff
+}
 .q-element:nth-child(2) .q-box,
 .q-element:nth-child(4) .q-box {
     padding-right: 175px;
