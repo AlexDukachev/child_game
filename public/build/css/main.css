@@ -1,0 +1,9 @@
+.menu-shrink {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #ffff;
+    box-shadow: -9px -10px 23px #9a9a9a;
+}
