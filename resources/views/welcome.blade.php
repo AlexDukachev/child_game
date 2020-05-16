@@ -88,6 +88,9 @@
         <div class="shape4">
             <img src="{{ asset('build/img/shape/shape4.png') }}" alt="Image">
         </div>
+        <div class="bg-shape">
+            <img src="{{ asset('build/img/shape/bg-shape2.png') }}" alt="Shape">
+        </div>
     </section>
 
 </body>
