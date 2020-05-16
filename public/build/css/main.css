@@ -191,9 +191,9 @@ img {
 .questions {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 15px 0;
+    position: relative;
 }
 .question_single_image {
     position: absolute;
@@ -272,12 +272,12 @@ img {
     z-index: 0;
 }
 .q-box:nth-child(1),
-.q-box:nth-child(2) {
+.q-box:nth-child(3) {
     padding-right: 175px;
 }
-.q-box:nth-child(3),
+.q-box:nth-child(2),
 .q-box:nth-child(4) {
-    padding-left: 175px;
+    padding-right: 175px;
 }
 .q-box .title {
     font-weight: 400;
