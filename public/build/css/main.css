@@ -247,9 +247,7 @@ img {
     background: #fff;
     box-shadow: 8px 6px 20px 0 rgba(0,0,0,.1);
 }
-.question_single_image_wrapper img {
-    max-width: calc(100% - 24px);
-    max-height: calc(100% - 24px);
+.question_single_image_wrapper span {
     position: absolute;
     z-index: 2;
     top: 0;
@@ -257,6 +255,10 @@ img {
     left: 0;
     right: 0;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
 }
 .q-element {
     width: calc(50% - 85px);

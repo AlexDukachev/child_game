@@ -26,7 +26,7 @@
                 <div class="question_single_image">
                     <figure>
                         <div class="question_single_image_wrapper">
-                            Какое животное изображено на фото?
+                            <span>Какое животное изображено на фото?</span>
                         </div>
                     </figure>
                 </div>
