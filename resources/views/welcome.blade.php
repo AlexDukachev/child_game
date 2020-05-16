@@ -24,5 +24,69 @@
         </div>
     </header>
 
+    <section class="about-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single-about">
+                        <div class="section-title">
+                            <h6>about us</h6>
+                            <h2>welcome to the learning leader baby care</h2>
+                            <img src="https://templates.envytheme.com/humpty/default/assets/img/title-border.png" alt="Image">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                        </div>
+                        <div class="about-list">
+                            <ul>
+                                <li>
+                                    <i class="flaticon-circle-outline"></i>
+                                    Supporting the child Personality
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                </li>
+
+                                <li>
+                                    <i class="flaticon-circle-outline"></i>
+                                    Professional &amp; Qualified Teacher
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                </li>
+
+                                <li>
+                                    <i class="flaticon-circle-outline"></i>
+                                    Indoor/Outdoor Games For Kids
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                </li>
+
+                                <li>
+                                    <i class="flaticon-circle-outline"></i>
+                                    Best learning School For Kids
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="custom-button">
+                            <a href="#" class="custom-btn">discover more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-about-bg item-bg">
+                        <div class="about-img-cartwrap">
+                            <div class="image">
+                                <img src="https://templates.envytheme.com/humpty/default/assets/img/about/about-bg.png" alt="">
+                                <div class="benefits-cart">
+                                    <div class="d-table">
+                                        <div class="d-tablecell">
+                                            <h4>our</h4>
+                                            <p>benefits</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>

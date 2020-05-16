@@ -14,3 +14,6 @@
 .navbar-light .logo a.navbar-brand img {
     width: 110px;
 }
+.about-section {
+    position: relative;
+}
