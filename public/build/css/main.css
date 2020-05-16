@@ -7,10 +7,7 @@ body {
     text-align: left;
 }
 .menu-shrink {
-    position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: 999999;
     background: #ffff;
     box-shadow: -9px -10px 23px #9a9a9a;
@@ -23,7 +20,7 @@ body {
     width: 110px;
 }
 .about-section {
-    padding: 150px 0 100px;
+    padding: 50px 0;
     position: relative;
 }
 .about-section .single-about {
