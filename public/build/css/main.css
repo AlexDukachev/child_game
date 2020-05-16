@@ -17,3 +17,63 @@
 .about-section {
     position: relative;
 }
+.about-section .single-about {
+    margin-left: auto;
+    max-width: 530px;
+}
+.about-section .single-about .section-title {
+    margin-bottom: 20px;
+}
+.about-section .single-about .section-title h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #dd006d;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.about-section .single-about .section-title h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #393d72;
+}
+.about-section .single-about .section-title img {
+    margin-bottom: 30px;
+}
+.about-section .single-about .section-title p {
+    font-weight: 400;
+    color: #808080;
+    margin-bottom: 0;
+}
+.about-section .single-about .about-list {
+    margin-top: 25px;
+}
+.about-section .single-about .about-list ul li {
+    color: #393d72;
+    font-size: 18px;
+    font-weight: 700;
+}
+.about-section .single-about .about-list ul li i {
+    margin-right: 10px;
+    color: #393d72;
+    transition: .5s;
+    -webkit-transition: .5s;
+}
+.about-section .custom-button {
+    margin-top: 50px;
+}
+.custom-btn {
+    color: #ffff;
+    background-color: #dd006d;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 161px;
+    height: 38px;
+    line-height: 38px;
+    font-weight: 600;
+}
