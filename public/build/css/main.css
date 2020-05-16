@@ -259,8 +259,12 @@ img {
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
+    display: flex;
+    align-content: center;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }
 .q-element {
     width: calc(50% - 85px);
