@@ -43,24 +43,23 @@
                 <div class="q-element">
                     <div class="q-box" style="background-color:#ffffff; " data-hover="f96a9a">
                         <div class="content">
-                            <h3 class="title">Creative activities</h3>
-                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcRltthefgGeDOQdQrPRdixr3IvyrffCZt88N0tXe1Cn6ps_UD&usqp=CAU" class="img-fluid">
+                            <!-- <h3 class="title">Creative activities</h3>
+                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div> -->
                         </div>
                     </div>
                 </div>
                 <div class="q-element">
                     <div class="q-box" style="background-color:#ffffff; " data-hover="f9b001">
                         <div class="content">
-                            <h3 class="title">Creative activities</h3>
-                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
+                            <img src="https://public.tailbase.com/image/1210/Sleep-in-the-Animal-Kingdom-Large-.jpg" class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="q-element">
                     <div class="q-box" style="background-color:#ffffff; " data-hover="43cd66">
                         <div class="content">
-                            <h3 class="title">Creative activities</h3>
-                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcReJjsa5sfEDqMK0fgH0dbiADLLCQIZavqZczXLIpSChFwyIZcI&usqp=CAU" class="img-fluid">
                         </div>
                     </div>
                 </div>
