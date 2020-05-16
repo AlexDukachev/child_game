@@ -180,6 +180,13 @@ img {
     .single-about-bg .image {
         display: none;
     }
+    .about-section .shape1,
+    .about-section .shape2,
+    .about-section .shape3,
+    .about-section .shape4,
+    .about-section .bg-shape {
+        display: none;
+    }
 }
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
