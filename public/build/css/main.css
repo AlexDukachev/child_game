@@ -89,7 +89,7 @@ body {
     width: 3%;
 }
 .about-section .shape1 img {
-    animation: rotation 5s infinite linear;
+    animation: 5s linear 0s infinite normal none running rotation;
 }
 .about-section .shape2 {
     position: absolute;
@@ -98,7 +98,7 @@ body {
     width: 5%;
 }
 .about-section .shape2 img {
-    animation: rotation 8s infinite linear;
+    animation: 8s linear 0s infinite normal none running rotation;
 }
 .about-section .shape3 {
     position: absolute;
