@@ -131,6 +131,9 @@ body {
     -webkit-animation: mover 1s infinite alternate;
     animation: mover 1s infinite alternate;
 }
+img {
+    max-width: 100%;
+}
 .single-about-bg {
     text-align: center;
 }
