@@ -120,7 +120,7 @@ body {
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
-.work-section .bg-shape {
+.about-section .bg-shape {
     position: absolute;
     top: 0;
     left: 0;
