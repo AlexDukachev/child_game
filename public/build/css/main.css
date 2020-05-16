@@ -64,7 +64,6 @@ body {
     margin-bottom: 15px;
     font-weight: 400;
     color: #808080;
-    padding-left: 28px;
 }
 .about-section .custom-button {
     margin-top: 50px;
@@ -82,4 +81,49 @@ body {
     height: 38px;
     line-height: 38px;
     font-weight: 600;
+}
+.about-section .shape1 {
+    position: absolute;
+    top: 18%;
+    left: 52%;
+    width: 3%;
+}
+.about-section .shape1 img {
+    animation: rotation 5s infinite linear;
+}
+.about-section .shape2 {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    width: 5%;
+}
+.about-section .shape2 img {
+    animation: rotation 8s infinite linear;
+}
+.about-section .shape3 {
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    width: 5%;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+.about-section .shape4 {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    width: 5%;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+@media only screen and (min-width: 1824px) {
+    .about-section .shape1 {
+        position: absolute;
+        top: 5%;
+        left: 15%;
+        width: 3%;
+    }
+    .about-section .shape4 {
+        left: 56%;
+    }
 }

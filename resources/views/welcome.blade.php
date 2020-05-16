@@ -83,6 +83,18 @@
                 </div>
             </div>
         </div>
+        <div class="shape1">
+            <img src="{{ asset('build/img/shape/shape1.png') }}" alt="Image">
+        </div>
+        <div class="shape2">
+            <img src="{{ asset('build/img/shape/shape2.png') }}" alt="Image">
+        </div>
+        <div class="shape2">
+            <img src="{{ asset('build/img/shape/shape3.png') }}" alt="Image">
+        </div>
+        <div class="shape3">
+            <img src="{{ asset('build/img/shape/shape4.png') }}" alt="Image">
+        </div>
     </section>
 
 </body>
