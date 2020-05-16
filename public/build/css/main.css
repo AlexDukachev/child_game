@@ -258,6 +258,42 @@ img {
     right: 0;
     margin: auto;
 }
+.q-element {
+    width: calc(50% - 85px);
+    margin: 15px 0;
+}
+.q-box {
+    border-radius: 10px;
+    box-shadow: 8px 6px 20px 0px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 22px 30px 21px 30px;
+    transition: all .3s;
+    position: relative;
+    z-index: 0;
+}
+.q-box:nth-child(1),
+.q-box:nth-child(2) {
+    padding-right: 175px;
+}
+.q-box .title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.666666;
+    color: #033b62;
+    text-transform: uppercase;
+    word-break: break-word;
+    margin-bottom: 6px;
+    transition: all .3s;
+}
+.q-box .description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #666;
+    word-break: break-word;
+    margin-bottom: 21px;
+    transition: all .3s;
+}
 @media only screen and (min-width: 1824px) {
     .about-section .shape1 {
         position: absolute;
