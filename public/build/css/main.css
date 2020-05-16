@@ -195,7 +195,7 @@ img {
     padding: 15px 0;
     position: relative;
 }
-.question-single-image {
+.question_single_image {
     position: absolute;
     z-index: 5;
     top: 50%;
@@ -203,7 +203,7 @@ img {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.question-single-image figure {
+.question_single_image figure {
     display: initial;
     flex-wrap: wrap;
     justify-content: space-between;
