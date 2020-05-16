@@ -36,8 +36,7 @@
                 <div class="q-element">
                     <div class="q-box" style="background-color:#ffffff; " data-hover="0fbaf4">
                         <div class="content">
-                            <h3 class="title">Creative activities</h3>
-                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1uAmIgzbU5DQ6G3C0m7ryNoYETsuhTKhOWrqoqnTzKgjmLQVk&usqp=CAU" class="img-fluid">
                         </div>
                     </div>
                 </div>
