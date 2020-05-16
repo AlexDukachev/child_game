@@ -39,25 +39,21 @@
                         <div class="about-list">
                             <ul>
                                 <li>
-                                    <i class="flaticon-circle-outline"></i>
                                     Supporting the child Personality
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                                 </li>
 
                                 <li>
-                                    <i class="flaticon-circle-outline"></i>
                                     Professional &amp; Qualified Teacher
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                                 </li>
 
                                 <li>
-                                    <i class="flaticon-circle-outline"></i>
                                     Indoor/Outdoor Games For Kids
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                                 </li>
 
                                 <li>
-                                    <i class="flaticon-circle-outline"></i>
                                     Best learning School For Kids
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                                 </li>

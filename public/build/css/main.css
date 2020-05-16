@@ -60,11 +60,11 @@ body {
     font-size: 18px;
     font-weight: 700;
 }
-.about-section .single-about .about-list ul li i {
-    margin-right: 10px;
-    color: #393d72;
-    transition: .5s;
-    -webkit-transition: .5s;
+.about-section .single-about .about-list ul li p {
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #808080;
+    padding-left: 28px;
 }
 .about-section .custom-button {
     margin-top: 50px;
