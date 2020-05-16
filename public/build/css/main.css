@@ -194,7 +194,6 @@ img {
     align-items: center;
     justify-content: center;
     padding: 15px 0;
-    position: relative;
 }
 .question_single_image {
     position: absolute;
@@ -260,6 +259,12 @@ img {
     margin: auto;
 }
 .q-element {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     width: calc(50% - 85px);
     margin: 15px 0;
 }
