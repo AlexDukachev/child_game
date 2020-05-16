@@ -36,7 +36,7 @@
                 <div class="q-element">
                     <div class="q-box" style="background-color:#ffffff; " data-hover="0fbaf4">
                         <div class="content">
-                            <img src="https://static01.nyt.com/images/2020/04/22/science/22VIRUS-PETCATS1/22VIRUS-PETCATS1-mediumSquareAt3X.jpg" class="img-fluid">
+                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cat-with-blue-eyes-looks-at-camera-royalty-free-image-1587655932.jpg" class="img-fluid">
                         </div>
                     </div>
                 </div>
