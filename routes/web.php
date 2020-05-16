@@ -12,4 +12,4 @@
 */
 
 Route::view('/', 'welcome');
-Route::view('question', 'question');
+Route::view('/question', 'question');
