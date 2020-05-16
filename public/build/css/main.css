@@ -198,8 +198,8 @@ img {
 .question_single_image {
     position: absolute;
     z-index: 5;
-    width: 463px;
-    height: 463px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
