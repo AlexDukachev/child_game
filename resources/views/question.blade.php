@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="q-element">
-                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
+                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #f96a9a;">
                         <div class="content">
                             <h3 class="title">Creative activities</h3>
                             <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="q-element">
-                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
+                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #f9b001;">
                         <div class="content">
                             <h3 class="title">Creative activities</h3>
                             <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="q-element">
-                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
+                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #43cd66;">
                         <div class="content">
                             <h3 class="title">Creative activities</h3>
                             <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
@@ -71,6 +71,15 @@
     <script>
         var scene = document.getElementById('scene');
         var parallax = new Parallax(scene);
+        $('.q-element').on({
+            'mouseover': function() {
+                var color = $(this).data('hover')
+                $(this).style('background-color', color)
+            },
+            'mouseout': function() {
+                $(this).style('background-color', '#FFFFFF')
+            }
+        })
     </script>
 </body>
 </html>
