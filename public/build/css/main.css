@@ -271,13 +271,13 @@ img {
     position: relative;
     z-index: 0;
 }
-.q-element:nth-child(1) .q-box,
-.q-element:nth-child(3) .q-box {
-    padding-right: 175px;
-}
 .q-element:nth-child(2) .q-box,
 .q-element:nth-child(4) .q-box {
     padding-right: 175px;
+}
+.q-element:nth-child(3) .q-box,
+.q-element:nth-child(5) .q-box {
+    padding-left: 175px;
 }
 .q-box .title {
     font-weight: 400;
