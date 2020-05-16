@@ -30,37 +30,35 @@
                         </div>
                     </figure>
                 </div>
-                <div class="answer">
-                    <div class="q-element">
-                        <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
-                            <div class="content">
-                                <h3 class="title">Creative activities</h3>
-                                <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
-                            </div>
+                <div class="q-element">
+                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
+                        <div class="content">
+                            <h3 class="title">Creative activities</h3>
+                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
                         </div>
                     </div>
-                    <div class="q-element">
-                        <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
-                            <div class="content">
-                                <h3 class="title">Creative activities</h3>
-                                <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
-                            </div>
+                </div>
+                <div class="q-element">
+                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
+                        <div class="content">
+                            <h3 class="title">Creative activities</h3>
+                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
                         </div>
                     </div>
-                    <div class="q-element">
-                        <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
-                            <div class="content">
-                                <h3 class="title">Creative activities</h3>
-                                <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
-                            </div>
+                </div>
+                <div class="q-element">
+                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
+                        <div class="content">
+                            <h3 class="title">Creative activities</h3>
+                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
                         </div>
                     </div>
-                    <div class="q-element">
-                        <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
-                            <div class="content">
-                                <h3 class="title">Creative activities</h3>
-                                <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
-                            </div>
+                </div>
+                <div class="q-element">
+                    <div class="q-box" style="background-color:#ffffff; " data-hover="background-color: #0fbaf4;">
+                        <div class="content">
+                            <h3 class="title">Creative activities</h3>
+                            <div class="description" style="margin:0 0 13px; line-height: 1.5;">Help developing your child's creativity and social skills.</div>
                         </div>
                     </div>
                 </div>
