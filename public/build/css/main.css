@@ -272,6 +272,7 @@ img {
     z-index: 0;
 }
 .q-box:hover {
+    cursor: pointer;
     color: #ffffff
 }
 .q-element:nth-child(2) .q-box,
