@@ -26,7 +26,7 @@
                 <div class="question_single_image">
                     <figure>
                         <div class="question_single_image_wrapper">
-                            <img class="vc_single_image-img" src="https://z9v7g9z9.stackpathcdn.com/demo-3/wp-content/uploads/sites/6/2019/03/image-background-8-min.png" width="438" height="431" alt="image-background-8-min" title="image-background-8-min" />\
+                            Какое животное изображено на фото?
                         </div>
                     </figure>
                 </div>
