@@ -266,6 +266,9 @@ img {
     text-align: center;
     justify-content: center;
 }
+.question_single_image_wrapper span img {
+    
+}
 .q-element {
     width: calc(50% - 85px);
     margin: 15px 0;
