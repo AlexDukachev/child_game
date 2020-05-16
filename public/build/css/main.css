@@ -166,6 +166,13 @@ img {
     opacity: 1;
     position: relative;
 }
+.parallax_bg {
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -950px;
+    top: -10px;
+}
 .section-block-wrapper {
     position: relative;
     background-color: #9ae1ff;
