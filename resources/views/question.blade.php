@@ -71,14 +71,13 @@
     <script>
         var scene = document.getElementById('scene');
         var parallax = new Parallax(scene);
-        $('.q-element').on({
-            'mouseover': function() {
-                var color = $('.q-box', this).data('hover')
-                $('.q-box', this).css('background-color', color)
-            },
-            'mouseout': function() {
-                $('.q-box', this).css('background-color', '#FFFFFF')
-            }
+        $('.q-element')
+        .mouseenter(function() {
+            var color = $('.q-box', this).data('hover')
+            $('.q-box', this).css('background-color', color)
+        })
+        .mouseleave(function() {
+            $('.q-box', this).css('background-color', '#FFFFFF')
         })
     </script>
 </body>
