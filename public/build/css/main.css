@@ -258,13 +258,15 @@ img {
     right: 0;
     margin: auto;
 }
-.q-element {
+.answer {
     position: absolute;
     z-index: 5;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.q-element {
     width: calc(50% - 85px);
     margin: 15px 0;
 }
