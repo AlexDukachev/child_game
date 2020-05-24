@@ -104,7 +104,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                <form id="signup" class="needs-validation" novalidate>
+                <form method="POST" id="signup" class="needs-validation" novalidate>
                     <div class="form-group">
                         <label for="field01">ФИО сотрудника</label>
                         <input required type="text" class="form-control" id="field01">
