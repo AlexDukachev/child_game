@@ -1,6 +1,9 @@
 @extends('layouts.app2')
 
 @section('content')
+<input type="hidden" id="question" value="{{ $question->currentPage() }}">
+<input type="hidden" id="last-page" value="{{ $question->lastPage() }}">
+<input type="hidden" id="next-page" value="{{ $question->currentPage() + 1 }}">
 @foreach ($question as $item)
     <div class="questions">
         <div class="question_single_image">
@@ -10,7 +13,7 @@
                 </div>
             </figure>
         </div>
-        <div class="q-element">
+        <div class="q-element" id="A">
             <div class="q-box" style="background-color:#ffffff; " data-hover="0fbaf4">
                 <div class="content">
                     @if (file_exists(public_path($item->A)))
@@ -21,7 +24,7 @@
                 </div>
             </div>
         </div>
-        <div class="q-element">
+        <div class="q-element" id="B">
             <div class="q-box" style="background-color:#ffffff; " data-hover="f96a9a">
                 <div class="content">
                     @if (file_exists(public_path($item->B)))
@@ -32,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="q-element">
+        <div class="q-element" id="C">
             <div class="q-box" style="background-color:#ffffff; " data-hover="f9b001">
                 <div class="content">
                     @if (file_exists(public_path($item->C)))
@@ -43,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="q-element">
+        <div class="q-element" id="D">
             <div class="q-box" style="background-color:#ffffff; " data-hover="43cd66">
                 <div class="content">
                     @if (file_exists(public_path($item->D)))

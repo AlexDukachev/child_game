@@ -13,5 +13,7 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/question', 'HomeController@question')->middleware('auth');
+Route::post('/question', 'HomeController@answer')->middleware('auth');
+Route::get('/success', 'HomeController@success')->middleware('auth');
 
 Auth::routes();

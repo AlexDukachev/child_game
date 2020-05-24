@@ -17,11 +17,6 @@ class HomeController extends Controller
         $this->middleware('auth');
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
     public function index()
     {
         return view('welcome');
@@ -32,5 +27,18 @@ class HomeController extends Controller
         $question = Question::paginate(1);
 
         return view('question', compact('question'));
+    }
+
+    public function answer(Request $request)
+    {
+        $answer = Question::answer($request);
+
+        if ($answer) return response()->json(['success' => true], 200);
+        else return response()->json(['success' => false], 500);
+    }
+
+    public function success()
+    {
+        return view('success');
     }
 }

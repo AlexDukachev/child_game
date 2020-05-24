@@ -3,18 +3,43 @@
     
     window.addEventListener('load', function() {
         // Fetch all inputs to apply Inputmask
-        Inputmask().mask(document.querySelectorAll("input"))
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation')
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
-                form.classList.add('was-validated')
+        if (document.querySelectorAll("input[type=tel]").length > 0) Inputmask().mask(document.querySelectorAll("input"))
+        // Question click event
+        var elements = document.getElementsByClassName('q-element'),
+            question = document.getElementById('question'),
+            last = document.getElementById('last-page'),
+            next = document.getElementById('next-page')
+
+        Array.prototype.filter.call(elements, function(element) {
+            element.addEventListener('click', function(event) {
+                event.preventDefault()
+
+                var formData = new FormData()
+                    formData.append('question', question.value)
+                    formData.append('answer', this.id)
+                var token = document.querySelector('meta[name="csrf-token"]').content,
+                    xhr = new XMLHttpRequest()
+                    xhr.open("POST", '/question', true)
+                    xhr.setRequestHeader('X-CSRF-TOKEN', token)
+                    xhr.send(formData)
+
+                    xhr.onloadend = function() {
+                        if (this.status != 200) {
+                            alert( xhr.status + ': ' + xhr.statusText )
+                        }
+                        else {
+                            var response = JSON.parse(this.responseText)
+                            if (response.success) {
+                                if (parseInt(next.value) > parseInt(last.value)) {
+                                    location.href = '/success'
+                                }
+                                else {
+                                    location.href = '/question?page=' + next.value
+                                }
+                            }
+                        }
+                    }
             }, false)
         })
-      }, false)
+    }, false)
 })()
