@@ -73,19 +73,19 @@ body {
     color: #ffff;
     background-color: #dd006d;
     font-size: 15px;
-    text-transform: capitalize;
     display: inline-block;
     position: relative;
     z-index: 1;
     text-align: center;
-    width: 161px;
-    height: 38px;
-    line-height: 38px;
+    padding: 10px 25px;
     font-weight: 600;
+    text-decoration: none;
 }
 .custom-btn:hover {
     color: #ffff;
     opacity: .7!important;
+    text-decoration: none;
+}
 }
 .about-section .shape1 {
     position: absolute;

@@ -15,6 +15,4 @@ Route::get('/', function() {
     return view('welcome');
 });
 Route::post('/', 'HomeController@signup');
-Route::get('/question', function() {
-    return view('question');
-});
+Route::get('/question', 'HomeController@question');
