@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Child Game</title>
+@extends('layouts.app')
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('build/css/animate.css') }}">
-    <link rel="stylesheet" href="{{ asset('build/css/main.css') }}">
-</head>
-<body>
-    
-    <header>
-        <div class="menu-shrink">
-            <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <div class="logo">
-                        <a class="navbar-brand" href="{{ url('/') }}">
-                            <img src="https://templates.envytheme.com/humpty/default/assets/img/child-logo.png" alt="">
-                        </a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
-
+@section('content')
     <section class="about-section">
         <div class="container-fluid">
             <div class="row">
@@ -99,54 +74,4 @@
             <img src="{{ asset('build/img/shape/bg-shape2.png') }}" alt="Shape">
         </div>
     </section>
-
-    <!-- Modal -->
-    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="signupModalLabel">Регистрация участника</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                <form method="POST" id="signup" class="needs-validation" novalidate>
-                    @csrf
-                    <div class="form-group">
-                        <label for="field01">ФИО сотрудника</label>
-                        <input required type="text" class="form-control" id="field01" name="fio">
-                    </div>
-                    <div class="form-group">
-                        <label for="field02">Подразделение</label>
-                        <input required type="text" class="form-control" id="field02" name="subdivision">
-                        <small id="emailHelp" class="form-text text-muted">Цех и само предприятие: ПМЗ, ЛМЦ, ПРП.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="field03">Номер сотового</label>
-                        <input required data-inputmask="'mask': '+7 (999) 999 99 99'" type="tel" class="form-control" id="field03" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="field04">ФИО ребенка</label>
-                        <input required type="text" class="form-control" id="field04" name="child_fio">
-                    </div>
-                    <div class="form-group">
-                        <label for="field05">Возраст ребенка</label>
-                        <input required type="number" class="form-control" id="field05" min="0" max="7" name="child_age">
-                    </div>
-                </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
-                    <button type="submit" form="signup" class="btn btn-primary">Зарегистрировать</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/jquery.inputmask.bundle.min.js"></script>
-    <script src="{{ asset('build/js/main.js') }}"></script>
-</body>
-</html>
+@endsection

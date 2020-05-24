@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', function() {
-    return view('welcome');
-});
-Route::post('/', 'HomeController@signup');
-Route::get('/question', 'HomeController@question');
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/question', 'HomeController@question')->middleware('auth');
+
+Auth::routes();
