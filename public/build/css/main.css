@@ -29,19 +29,17 @@ body {
     max-width: 530px;
 }
 .about-section .single-about .section-title {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .about-section .single-about .section-title h6 {
     font-size: 20px;
     font-weight: 400;
     color: #dd006d;
     text-transform: capitalize;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .about-section .single-about .section-title h2 {
     font-size: 40px;
-    text-transform: capitalize;
-    margin-bottom: 30px;
     font-weight: 400;
     color: #393d72;
 }
@@ -50,16 +48,14 @@ body {
 }
 .about-section .single-about .section-title p {
     font-weight: 400;
-    color: #808080;
+    color: #333333;
     margin-bottom: 0;
-}
-.about-section .single-about .about-list {
-    margin-top: 25px;
 }
 .about-section .single-about .about-list ul li {
     color: #393d72;
-    font-size: 18px;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 .about-section .single-about .about-list ul li p {
     margin-bottom: 15px;
@@ -285,6 +281,7 @@ img {
     transition: all .3s;
     position: relative;
     z-index: 0;
+    min-height: 180px;
 }
 .q-element:nth-child(2) .q-box,
 .q-element:nth-child(4) .q-box {

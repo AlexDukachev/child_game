@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Question;
 
 class HomeController extends Controller
 {
@@ -28,6 +29,8 @@ class HomeController extends Controller
 
     public function question()
     {
-        return view('question');
+        $question = Question::paginate(1);
+
+        return view('question', compact('question'));
     }
 }

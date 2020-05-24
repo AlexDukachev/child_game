@@ -10,39 +10,24 @@
                 <div class="col-lg-6">
                     <div class="single-about">
                         <div class="section-title">
-                            <h6>about us</h6>
-                            <h2>welcome to the learning leader baby care</h2>
-                            <img src="https://templates.envytheme.com/humpty/default/assets/img/title-border.png" alt="Image">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <h2>Привет, малыш!</h2>
+                            <h6>Команда АО «ERG Service» рада приветствовать тебя на нашей викторине!</h6>
+                            <p class="text-justify mb-2">Викторина посвящена Всемирному Дню Охраны Окружающей Среды, который отмечается 5 июня.<br/>Мы уверены, что ты очень любознательный и смышленый ребенок!<br/>Участвуя в нашей праздничной викторине ты узнаешь о животных, птицах, растениях, правилах поведения в природе и просто проведешь время с пользой.<br/>Надеемся тебе с нами понравится!</p>
+                            <p class="text-justify mb-2"><em><strong>Цель нашей викторины:</strong></em> способствовать формированию знаний о природе (животных, птицах, растениях, правилах поведения в природе), развитию, экологического мышления и творческого воображения.</p>
+                            <p><em><strong>Задачи:</strong></em></p>
                         </div>
                         <div class="about-list">
                             <ul>
-                                <li>
-                                    Supporting the child Personality
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                </li>
-
-                                <li>
-                                    Professional &amp; Qualified Teacher
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                </li>
-
-                                <li>
-                                    Indoor/Outdoor Games For Kids
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                </li>
-
-                                <li>
-                                    Best learning School For Kids
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-                                </li>
+                                <li>Уточнять, расширять и закреплять знания детей о животных и растениях;</li>
+                                <li>Развивать память, любознательность, сообразительность, умение анализировать, обобщать и сравнивать;</li>
+                                <li>Воспитывать познавательный интерес, уважение и любовь к родной природе, интерес к жизни животных и растений.</li>
                             </ul>
                         </div>
                         <div class="custom-button">
-                            @if (session('uid'))
-                            <a href="/question" class="custom-btn">Приступить к заданию</a>
+                            @if (Auth::user())
+                            <a href="/question" class="custom-btn">Начать игру</a>
                             @else
-                            <a data-toggle="modal" data-target="#signupModal" href="#" class="custom-btn">discover more</a>
+                            <a href="/register" class="custom-btn">Принять участие</a>
                             @endif
                         </div>
                     </div>
