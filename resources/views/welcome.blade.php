@@ -105,26 +105,27 @@
                 </div>
                 <div class="modal-body">
                 <form method="POST" id="signup" class="needs-validation" novalidate>
+                    @csrf
                     <div class="form-group">
                         <label for="field01">ФИО сотрудника</label>
-                        <input required type="text" class="form-control" id="field01">
+                        <input required type="text" class="form-control" id="field01" name="fio">
                     </div>
                     <div class="form-group">
                         <label for="field02">Подразделение</label>
-                        <input required type="text" class="form-control" id="field02">
+                        <input required type="text" class="form-control" id="field02" name="subdivision">
                         <small id="emailHelp" class="form-text text-muted">Цех и само предприятие: ПМЗ, ЛМЦ, ПРП.</small>
                     </div>
                     <div class="form-group">
                         <label for="field03">Номер сотового</label>
-                        <input required data-inputmask="'mask': '+7 (999) 999 99 99'" type="tel" class="form-control" id="field03">
+                        <input required data-inputmask="'mask': '+7 (999) 999 99 99'" type="tel" class="form-control" id="field03" name="phone">
                     </div>
                     <div class="form-group">
                         <label for="field04">ФИО ребенка</label>
-                        <input required type="text" class="form-control" id="field04">
+                        <input required type="text" class="form-control" id="field04" name="child_fio">
                     </div>
                     <div class="form-group">
                         <label for="field05">Возраст ребенка</label>
-                        <input required type="number" class="form-control" id="field05" min="0" max="7">
+                        <input required type="number" class="form-control" id="field05" min="0" max="7" name="child_age">
                     </div>
                 </form>
                 </div>
