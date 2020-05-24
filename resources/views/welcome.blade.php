@@ -61,7 +61,7 @@
                             </ul>
                         </div>
                         <div class="custom-button">
-                            <a href="#" class="custom-btn">discover more</a>
+                            <a data-toggle="modal" data-target="#signupModal" href="#" class="custom-btn">discover more</a>
                         </div>
                     </div>
                 </div>
@@ -93,5 +93,52 @@
         </div>
     </section>
 
+    <!-- Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Регистрация участника</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <form id="signup" class="needs-validation" novalidate>
+                    <div class="form-group">
+                        <label for="field01">ФИО сотрудника</label>
+                        <input required type="text" class="form-control" id="field01">
+                    </div>
+                    <div class="form-group">
+                        <label for="field02">Подразделение</label>
+                        <input required type="text" class="form-control" id="field02">
+                        <small id="emailHelp" class="form-text text-muted">Цех и само предприятие: ПМЗ, ЛМЦ, ПРП.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="field03">Номер сотового</label>
+                        <input required data-inputmask="'mask': '+7 (999) 999 99 99'" type="tel" class="form-control" id="field03">
+                    </div>
+                    <div class="form-group">
+                        <label for="field04">ФИО ребенка</label>
+                        <input required type="text" class="form-control" id="field04">
+                    </div>
+                    <div class="form-group">
+                        <label for="field05">Возраст ребенка</label>
+                        <input required type="number" class="form-control" id="field05" min="0" max="7">
+                    </div>
+                </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+                    <button type="submit" form="signup" class="btn btn-primary">Зарегистрировать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.9/jquery.inputmask.bundle.min.js"></script>
+    <script src="{{ asset('build/js/main.js') }}"></script>
 </body>
 </html>
