@@ -8,6 +8,15 @@ use DB;
 
 class Question extends Model
 {
+
+    public static function result($request)
+    {
+        $query = DB::table('user_success');
+        return $query->insertGetId([
+            'uid' => Auth::user()->id,
+            'result' => $request->result == 'success' ? 1 : 0
+        ]);
+    }
     
     public static function answer($request)
     {

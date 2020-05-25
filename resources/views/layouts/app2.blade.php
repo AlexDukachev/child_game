@@ -30,17 +30,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="{{ asset('build/js/parallax.min.js') }}"></script>
-    <script>
-        var scene = document.getElementById('scene');
-        var parallax = new Parallax(scene);
-        $('.q-element').mouseenter(function() {
-            var color = $('.q-box', this).data('hover')
-            $('.q-box', this).css('background-color', '#' + color)
-        })
-        .mouseleave(function() {
-            $('.q-box', this).css('background-color', '#FFFFFF')
-        })
-    </script>
     <script src="{{ asset('build/js/main.js') }}"></script>
 </body>
 </html>
