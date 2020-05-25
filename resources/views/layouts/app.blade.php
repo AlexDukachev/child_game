@@ -20,7 +20,7 @@
                 <nav class="navbar navbar-expand-md navbar-light">
                     <div class="logo">
                         <a class="navbar-brand" href="{{ url('/') }}">
-                            <img src="{{ asset('img/child-logo.png') }}" alt="">
+                            <img src="{{ asset('build/img/child-logo.png') }}" alt="">
                         </a>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
