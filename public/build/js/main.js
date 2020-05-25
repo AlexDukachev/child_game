@@ -4,7 +4,7 @@
     window.addEventListener('load', function() {
 
         var scene = document.getElementById('scene');
-        if (scene.length > 0) var parallax = new Parallax(scene);
+        if (scene) var parallax = new Parallax(scene);
         $('.q-element').mouseenter(function() {
             var color = $('.q-box', this).data('hover')
             $('.q-box:not(.not-hover)', this).css('background-color', '#' + color)
