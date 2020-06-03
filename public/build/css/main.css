@@ -368,6 +368,7 @@ img {
         height: 100%;
     }
     .questions {
+        padding-bottom: 15px;
         padding-top: 15px;
         display: block;
     }
@@ -394,6 +395,9 @@ img {
     }
     .q-element {
         width: 100%;
+    }
+    .q-element:last-child {
+        margin-bottom: 0;
     }
     .q-element:nth-child(1) .q-box, .q-element:nth-child(3) .q-box,
     .q-element:nth-child(2) .q-box, .q-element:nth-child(4) .q-box,
