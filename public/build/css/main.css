@@ -379,7 +379,7 @@ img {
         width: 100%;
     }
     .question_single_image_wrapper span {
-        
+        font-size: 18px;
     }
     .question_single_image_wrapper::after {
         display: none;
