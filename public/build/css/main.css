@@ -359,3 +359,13 @@ img {
       transform: rotate(359deg);
     }
 }
+
+@media (max-width: 992px) {
+    .section-block-wrapper {
+        height: 100%;
+    }
+    .parallax_bg {
+        margin-left: 0;
+        left: 0;
+    }
+}
