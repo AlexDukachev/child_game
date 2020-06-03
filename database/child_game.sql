@@ -336,7 +336,7 @@ INSERT INTO questions VALUES
 (5, 'Какой овощ содержит большое количество витаминов роста?', 'D', '/assets/5-A.jpg', '/assets/5-B.jpg', '/assets/5-C.jpg', '/assets/5-D.png', NULL, NULL),
 (6, 'Кто три раза родится прежде чем стать взрослым?', 'C', '/assets/6-A.jpg', '/assets/6-B.png', '/assets/6-C.png', '/assets/6-D.png', NULL, NULL),
 (7, 'Где находится ухо у кузнечика?', 'A', 'на ноге', 'на голове', 'на усике', 'на брюшке', NULL, NULL),
-(8, 'Кто готовит медвежонку мед?', 'B', '/assets/8-A.jpg', '/assets/8-B.jpg', '/assets/8-C.jpg', '/assets/8-D.png', NULL, NULL),
+(8, 'Кто готовит медвежонку мед?', 'B', '/assets/8-A.jpg', '/assets/8-B.jpg', '/assets/8-C.jpg', '/assets/8-D.jpg', NULL, NULL),
 (9, 'Какой зверь по праву считается самым быстрым?', 'D', '/assets/9-A.jpg', '/assets/9-B.jpg', '/assets/9-C.jpg', '/assets/9-D.jpg', NULL, NULL),
 (10, 'Какая ягода самая большая?', 'B', '/assets/10-A.jpg', '/assets/10-B.jpg', '/assets/10-C.jpg', '/assets/10-D.jpg', NULL, NULL),
 (11, 'Какой цветок за лето меняет головной убор?', 'A', '/assets/11-A.jpg', '/assets/11-B.jpg', '/assets/11-C.jpg', '/assets/11-D.jpg', NULL, NULL),
