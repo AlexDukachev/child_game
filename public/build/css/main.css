@@ -369,5 +369,17 @@ img {
     }
     .question_single_image {
         position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    .question_single_image_wrapper {
+        overflow: auto;
+    }
+    .question_single_image_wrapper span {
+        
+    }
+    .question_single_image_wrapper::after {
+        display: none;
     }
 }
