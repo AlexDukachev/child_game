@@ -395,6 +395,7 @@ img {
     }
     .q-element {
         width: 100%;
+        text-align: center;
     }
     .q-element:last-child {
         margin-bottom: 0;
