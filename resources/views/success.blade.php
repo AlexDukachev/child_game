@@ -23,3 +23,11 @@
     </div>
 </div>
 @endsection
+
+@section('css')
+<style>
+    html {
+        background-color: #9ae1ff;
+    }
+</style>
+@endsection

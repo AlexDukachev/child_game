@@ -11,10 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('build/css/animate.css') }}">
     <link rel="stylesheet" href="{{ asset('build/css/main.css') }}">
+    @yield('css')
 </head>
 <body>
     
-<section class="section-block-wrapper">
+    <section class="section-block-wrapper">
         <div class="parallax_bg d-none d-lg-block d-xl-block">
             <ul id="scene" class="scene" data-scalar-x="10" data-scalar-y="4">
                 <li class="layer" data-depth="0.00"><img id="sun" src="{{ asset('build/img/sun.png') }}" alt=""></li>
