@@ -384,10 +384,12 @@ img {
         overflow: auto;
         width: 100%;
         border-radius: 25px;
-        position: relative;
     }
     .question_single_image_wrapper span {
         font-size: 18px;
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 25px;
     }
     .question_single_image_wrapper::before {
         border-radius: 25px;
