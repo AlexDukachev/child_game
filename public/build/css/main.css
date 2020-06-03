@@ -369,6 +369,7 @@ img {
     }
     .questions {
         padding-top: 15px;
+        display: block;
     }
     .question_single_image {
         position: relative;
