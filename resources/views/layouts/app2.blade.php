@@ -22,7 +22,7 @@
                 <li class="layer" data-depth="0.30"><img id="cloud" src="{{ asset('build/img/clouds.png') }}" alt=""></li>
             </ul>
         </div>
-        <div id="overlay_slider_land" class="overlay_slider_land"></div>
+        <div id="overlay_slider_land" class="overlay_slider_land d-none d-lg-block d-xl-block"></div>
         <div class="container">
             @yield('content')
         </div>
