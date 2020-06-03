@@ -377,11 +377,15 @@ img {
     .question_single_image_wrapper {
         overflow: auto;
         width: 100%;
+        border-radius: 25px;
     }
     .question_single_image_wrapper span {
         font-size: 18px;
     }
+    .question_single_image_wrapper::before {
+        border-radius: 25px;
+    }
     .question_single_image_wrapper::after {
-        display: none;
+        border-radius: 25px;
     }
 }
