@@ -390,6 +390,8 @@ img {
         position: relative;
         background-color: #ffffff;
         border-radius: 25px;
+        max-width: none;
+        padding-bottom: 20px 30px;
     }
     .question_single_image_wrapper::before {
         border-radius: 25px;
