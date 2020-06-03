@@ -367,6 +367,9 @@ img {
     .section-block-wrapper {
         height: 100%;
     }
+    .questions {
+        padding-top: 15px;
+    }
     .question_single_image {
         position: relative;
         top: 0;
