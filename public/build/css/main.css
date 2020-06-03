@@ -372,9 +372,11 @@ img {
         top: 0;
         left: 0;
         transform: none;
+        width: 100%;
     }
     .question_single_image_wrapper {
         overflow: auto;
+        width: 100%;
     }
     .question_single_image_wrapper span {
         
