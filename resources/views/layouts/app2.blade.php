@@ -15,7 +15,7 @@
 <body>
     
 <section class="section-block-wrapper">
-        <div class="parallax_bg hidden-sm hidden-xs">
+        <div class="parallax_bg d-block d-sm-none d-xs-none">
             <ul id="scene" class="scene" data-scalar-x="10" data-scalar-y="4">
                 <li class="layer" data-depth="0.00"><img id="sun" src="{{ asset('build/img/sun.png') }}" alt=""></li>
                 <li class="layer" data-depth="0.20"><img id="globe" src="{{ asset('build/img/globe.png') }}" alt=""></li>
