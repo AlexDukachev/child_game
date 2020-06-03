@@ -397,7 +397,9 @@ img {
     }
     .q-element:nth-child(1) .q-box, .q-element:nth-child(3) .q-box,
     .q-element:nth-child(2) .q-box, .q-element:nth-child(4) .q-box {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
