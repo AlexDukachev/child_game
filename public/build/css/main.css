@@ -396,7 +396,8 @@ img {
         width: 100%;
     }
     .q-element:nth-child(1) .q-box, .q-element:nth-child(3) .q-box,
-    .q-element:nth-child(2) .q-box, .q-element:nth-child(4) .q-box {
+    .q-element:nth-child(2) .q-box, .q-element:nth-child(4) .q-box,
+    .q-element:nth-child(5) .q-box {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 20px;
