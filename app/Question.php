@@ -58,6 +58,7 @@ class Question extends Model
             'users.child_name',
             'users.child_age',
             'questions.question',
+            'questions.answer as correct',
             'user_answers.answer',
             'user_answers.created_at',
         ]);

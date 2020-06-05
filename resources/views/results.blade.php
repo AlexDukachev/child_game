@@ -17,6 +17,7 @@
             <td>{{ $item->child_age }}</td>
             <td>{{ $item->question }}</td>
             <td>{{ $item->answer }}</td>
+            <td>{{ $item->correct }}</td>
             <td>{{ $item->created_at }}</td>
         </tr>
         @endforeach
