@@ -57,7 +57,7 @@ class Question extends Model
             'users.subdivision',
             'users.child_name',
             'users.child_age',
-            'questions.text as question',
+            'questions.question',
             'user_answers.answer',
             'user_answers.created_at',
         ]);
