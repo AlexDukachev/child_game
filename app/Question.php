@@ -60,7 +60,7 @@ class Question extends Model
             'questions.question',
             'questions.answer as correct',
             'user_answers.answer',
-            'user_answers.created_at',
+            DB::raw('DATE_ADD(user_answers.created_at, INTERVAL 6 HOUR) as created_at'),
         ]);
         $query->orderBy('user_answers.uid');
         $query->orderBy('user_answers.created_at');
