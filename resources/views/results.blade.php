@@ -20,9 +20,6 @@
             <td>{{ $item->correct }}</td>
             <td>{{ $item->created_at }}</td>
         </tr>
-        <tr>
-            <td colspan="8" class="text-center">-</td>
-        </tr>
         @endforeach
     </table>
 
