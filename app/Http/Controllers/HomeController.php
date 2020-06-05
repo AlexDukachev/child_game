@@ -45,7 +45,6 @@ class HomeController extends Controller
     public function answer_result()
     {
         $result = Question::results();
-
-        dd($result);
+        return view('results', compact('result'));
     }
 }

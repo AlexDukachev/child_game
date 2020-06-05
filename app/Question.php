@@ -50,6 +50,17 @@ class Question extends Model
     public static function results()
     {
         $query = DB::table('user_answers');
+        $query->join('users', 'user_answers.uid', '=', 'users.id')
+        $query->join('questions', 'user_answers.question', '=', 'questions.id')
+        $query->select([
+            'users.name',
+            'users.subdivision',
+            'users.child_name',
+            'users.child_age',
+            'questions.text as question',
+            'user_answers.answer',
+            'user_answers.created_at',
+        ]);
         return $query->get();
     }
 
