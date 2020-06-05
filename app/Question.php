@@ -62,9 +62,9 @@ class Question extends Model
             'user_answers.answer',
             'user_answers.created_at',
         ]);
-        $query->orderBy('user_answers.id');
         $query->orderBy('user_answers.uid');
         $query->orderBy('user_answers.created_at');
+        $query->orderBy('user_answers.id');
         return $query->get();
     }
 
