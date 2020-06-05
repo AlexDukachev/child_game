@@ -47,4 +47,10 @@ class Question extends Model
         // }
     }
 
+    public static function results()
+    {
+        $query = DB::table('user_answers');
+        return $query->get();
+    }
+
 }

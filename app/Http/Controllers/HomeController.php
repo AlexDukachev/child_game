@@ -41,4 +41,11 @@ class HomeController extends Controller
         if ($result) return response()->json(['success' => true], 200);
         else return response()->json(['success' => false], 500);
     }
+
+    public function result()
+    {
+        $result = Question::results();
+
+        dd($result);
+    }
 }
